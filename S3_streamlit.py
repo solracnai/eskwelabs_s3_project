@@ -135,7 +135,7 @@ elif navigation_option == "Exploratory Data Analysis":
         """,
         unsafe_allow_html=True,    
     )
-    # st.image('./image/eheads_chart_01.png')
+    st.image('./image/ehead_audio_features.png')
 
     st.markdown(
     """
@@ -147,7 +147,7 @@ elif navigation_option == "Exploratory Data Analysis":
         """,
         unsafe_allow_html=True,    
     )
-    # st.image('./image/eheads_chart_01.png')
+    st.image('./image/ehead_daily_charts.png')
 
 
 elif navigation_option == "Objectives":
@@ -190,7 +190,7 @@ elif navigation_option == "Machine Learning Pipeline":
         """,
         unsafe_allow_html=True,
     )
-    # st.image('./image/local_artist.jpg')
+    st.image('./image/ml_pipeline.jpg')
 
 
 elif navigation_option == "Genre Classification":
@@ -200,40 +200,47 @@ elif navigation_option == "Genre Classification":
             <header>
                 <h1>Genre Classifier</h1>
             </header>
-            <p>
-
-            </p>
+            <ul>
+                <li>To assign a genre to each track of Eraserheads and determine their most prominent genre, facilitating the creation of a recommender engine for discovering relevant songs and artists</li>
+                <li>Genre: Rock, Country, Jazz, R&B</li>
+                <li>Features: acousticness, danceability, energy, instrumentalness, liveness, loudness, popularity, speechiness, valence</li>
+                <li>Models considered: K-Nearest Neighbors, Supported Vector Model, Random Forest Classifier</li>
+                <li>Best model: Random Forest Classifier</li>
+                <li>Accuracy: --%</li>
+            </ul>
         </div>
         """,
-        unsafe_allow_html=True,    
+        unsafe_allow_html=True,
     )
     st.markdown(
     """
         <div id="genre-container", class="center-text">
             <header>
-                <h1>Eraserheads’ songs are mostly rock, with country as a distant second</h1>
+                <h1>
+                    Eraserheads' songs primarily fall under the rock genre, with country being a secondary influence at a distance
+                </h1>
             </header>
         </div>
         """,
         unsafe_allow_html=True,    
     )
-    # st.image('./image/eheads_chart_02.png')
+    st.image('./image/genre_1.png')
 
 
 elif navigation_option == "Recommender Engine":
-    st.markdown(
-    """
-        <div id="engine-container", class="center-text">
-            <header>
-                <h1>Recommender Engine</h1>
-            </header>
-            <p>
+    # st.markdown(
+    # """
+    #     <div id="engine-container", class="center-text">
+    #         <header>
+    #             <h1>Recommender Engine</h1>
+    #         </header>
+    #         <p>
 
-            </p>
-        </div>
-        """,
-        unsafe_allow_html=True,    
-    )
+    #         </p>
+    #     </div>
+    #     """,
+    #     unsafe_allow_html=True,    
+    # )
 
     st.markdown(
     """
@@ -245,7 +252,7 @@ elif navigation_option == "Recommender Engine":
         """,
         unsafe_allow_html=True,    
     )
-    # st.image('./image/eheads_chart_02.png')
+    st.image('./image/manhattan.jpg')
 
     st.markdown(
     """
@@ -257,7 +264,7 @@ elif navigation_option == "Recommender Engine":
         """,
         unsafe_allow_html=True,    
     )
-    # st.image('./image/eheads_chart_02.png')
+    st.image('./image/cosine.jpg')
 
 
 elif navigation_option == "Spotify Deployment":
