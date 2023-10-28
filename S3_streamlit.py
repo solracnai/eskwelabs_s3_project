@@ -225,6 +225,7 @@ elif navigation_option == "Genre Classification":
         unsafe_allow_html=True,    
     )
     st.image('./image/genre_1.png')
+    st.image('./image/ml_model_prediction.jpg')
 
 
 elif navigation_option == "Recommender Engine":
