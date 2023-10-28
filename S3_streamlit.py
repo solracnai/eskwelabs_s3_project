@@ -206,7 +206,9 @@ elif navigation_option == "Genre Classification":
                 <li>Features: acousticness, danceability, energy, instrumentalness, liveness, loudness, popularity, speechiness, valence</li>
                 <li>Models considered: K-Nearest Neighbors, Supported Vector Model, Random Forest Classifier</li>
                 <li>Best model: Random Forest Classifier</li>
-                <li>Accuracy: --%</li>
+                <li>Best hyperparameters: {'rfc__max_depth': None, 'rfc__n_estimators': 200}</li>
+                <li>Train best score: 0.676321</li>
+                <li>Test best score: 0.667152</li>
             </ul>
         </div>
         """,
